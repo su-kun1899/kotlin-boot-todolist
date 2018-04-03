@@ -20,4 +20,9 @@ class TaskController(private val taskRepository: TaskRepository) {
 
         return "tasks/index"
     }
+
+    @GetMapping("new")
+    fun new(form: TaskCreateForm): String {
+        return "tasks/new"
+    }
 }
