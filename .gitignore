@@ -25,3 +25,6 @@ nbbuild/
 dist/
 nbdist/
 .nb-gradle/
+
+### h2 ###
+db.mv.db
